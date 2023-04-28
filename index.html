@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Search for Grock</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="code.js"></script>
+  </head>
+  <body onload="init()">
+    <div id="gamePanel" class="gamelayer">
+      
+      <div id="advBlock">
+        <div id="text"></div>
+      </div>
+
+      <div id="playerBlock">
+        <label id="lblItem" for="txtBxItem">Item</label>
+        <input id="txtBxItem" type="textbox"></input>
+        <button id="btnAdd" onclick="btnClickHndle()" class="btn">Add Item</button>
+        <button id="btnDrop" onclick="btnClickHndle()" class="btn">Remove Item</button>
+      </div>
+    </div>
+    <div id="splashscreen" class="gamelayer">
+      <h1>The Search for Grock</h1>
+      <div id="startGame" class="btn" onclick="startGame()">Start Game</div>
+    </div>
+  </body>
+</html>

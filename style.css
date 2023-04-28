@@ -1,0 +1,42 @@
+﻿.gamelayer {
+  position: absolute;
+  width: 500px;
+  height: 360px;
+}
+
+.btn {
+  background-color:green;
+  border-radius:5px;
+  padding: 5px 10px;
+  width: 15%;
+  border: 3px solid darkgreen;
+}
+
+.btn:hover {
+  border-color: black
+}
+
+#gamePanel {
+  width: 500px;
+  height: 360px;
+}
+
+#advBlock {
+  width:218;
+}
+
+#playerBlock {
+  width: 198;
+  padding-top:50px;
+}
+
+#startGame {
+  cursor:default;
+}
+
+#splashscreen {
+  background-image: url("angel1.png");
+  background-position: center;
+  background-position-y: top;
+  color:white;
+}
